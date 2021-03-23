@@ -73,9 +73,13 @@ public class VRCamera : MonoBehaviour
     if(Physics.Raycast(transform.position, transform.forward, out hit, rayDistance, rayLayerDetection))
     {
       target = hit.collider.GetComponent<Target>();
-      reticleTrs.position = hit.point;
+      reticleTrs.position = new Vector3(hit.point.x, hit.point.y, hit.point.z - 0.01f);
       reticleTrs.localScale = initialScale * hit.distance;
-      reticleTrs.localRotation = Quaternion.LookRotation(hit.normal);
+      reticleTrs.gameObject.GetComponent<SpriteRenderer>().color = Color.white;
+      reticleTrs.gameObject.GetComponent<Light>().range = 0.6f;
+      reticleTrs.rotation = Quaternion.LookRotation(hit.normal);
+      //rotation *= Quaternion.Euler(0, 90, 0); // this adds a 90 degrees Y rotation
+      //reticleTrs.rotation = rotation;
       if(hit.transform.CompareTag("Button")){
         isCounting = true;
         buttonImage.color = new Color(0.4f,0.4f,0.4f);
@@ -92,10 +96,13 @@ public class VRCamera : MonoBehaviour
       reticleTrs.localScale = initialScale;
       reticleTrs.localPosition = new Vector3(0, 0, 1);
       reticleTrs.localRotation = Quaternion.identity;
+      reticleTrs.gameObject.GetComponent<Light>().range = 0;
+
 
       isCounting = false;
       countdown = 0;
       buttonImage.color = Color.white;
+      reticleTrs.gameObject.GetComponent<SpriteRenderer>().color = new Color(0.7f, 0.7f, 0.7f);
     }
 
     if(countdown >= 3) {

@@ -236,6 +236,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Wall_600 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1829632723724214, guid: 9e391e0844c0485419f4f63c80f88b95, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4582214242550630, guid: 9e391e0844c0485419f4f63c80f88b95, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -305,6 +309,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Shelf_D1
       objectReference: {fileID: 0}
+    - target: {fileID: 1075362587909316, guid: 079f0fd23d98549469acb448bb1479d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4249301894765286, guid: 079f0fd23d98549469acb448bb1479d1, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -370,11 +378,61 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 54212502120406995, guid: 41dd2a223f630db4cb01f23251f9568a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.8584906
+      objectReference: {fileID: 0}
+    - target: {fileID: 54212502120406995, guid: 41dd2a223f630db4cb01f23251f9568a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.8584906
+      objectReference: {fileID: 0}
+    - target: {fileID: 54212502120406995, guid: 41dd2a223f630db4cb01f23251f9568a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.8584906
+      objectReference: {fileID: 0}
+    - target: {fileID: 5919615796282323528, guid: 41dd2a223f630db4cb01f23251f9568a,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 5919615796282323528, guid: 41dd2a223f630db4cb01f23251f9568a,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5919615796282323528, guid: 41dd2a223f630db4cb01f23251f9568a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5919615796282323528, guid: 41dd2a223f630db4cb01f23251f9568a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5919615796282323528, guid: 41dd2a223f630db4cb01f23251f9568a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5919615796282323529, guid: 41dd2a223f630db4cb01f23251f9568a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5919615798040949962, guid: 41dd2a223f630db4cb01f23251f9568a,
         type: 3}
       propertyPath: m_Name
       value: VRPlayer
       objectReference: {fileID: 0}
+    - target: {fileID: 5919615798040949966, guid: 41dd2a223f630db4cb01f23251f9568a,
+        type: 3}
+      propertyPath: reticleTrs
+      value: 
+      objectReference: {fileID: 1282486261}
     - target: {fileID: 5919615798040949966, guid: 41dd2a223f630db4cb01f23251f9568a,
         type: 3}
       propertyPath: buttonImage
@@ -383,7 +441,7 @@ PrefabInstance:
     - target: {fileID: 5919615798040949966, guid: 41dd2a223f630db4cb01f23251f9568a,
         type: 3}
       propertyPath: rayLayerDetection.m_Bits
-      value: 512
+      value: 768
       objectReference: {fileID: 0}
     - target: {fileID: 5919615798040949967, guid: 41dd2a223f630db4cb01f23251f9568a,
         type: 3}
@@ -438,6 +496,16 @@ PrefabInstance:
     - target: {fileID: 5919615798040949967, guid: 41dd2a223f630db4cb01f23251f9568a,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6391849293614280149, guid: 41dd2a223f630db4cb01f23251f9568a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8384654914648814883, guid: 41dd2a223f630db4cb01f23251f9568a,
+        type: 3}
+      propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -543,6 +611,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Flower_A2
       objectReference: {fileID: 0}
+    - target: {fileID: 1695009248014434, guid: 0000855ffb322674e8c16d68f97e54a6, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4367115669632394, guid: 0000855ffb322674e8c16d68f97e54a6, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -624,6 +696,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Mirror_A1
       objectReference: {fileID: 0}
+    - target: {fileID: 1190336879507814, guid: 5709a8f9fda0c6e47aab0f46e2d60bc5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4563648110251552, guid: 5709a8f9fda0c6e47aab0f46e2d60bc5, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -692,6 +768,10 @@ PrefabInstance:
     - target: {fileID: 1355481720781010, guid: 1d36a05d95dda7c45a3f05774b024686, type: 3}
       propertyPath: m_Name
       value: SM_Couch_A4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1355481720781010, guid: 1d36a05d95dda7c45a3f05774b024686, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4600443685980644, guid: 1d36a05d95dda7c45a3f05774b024686, type: 3}
       propertyPath: m_RootOrder
@@ -762,6 +842,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_OperationLamp_A1
       objectReference: {fileID: 0}
+    - target: {fileID: 1573483697158584, guid: 477e1f24794e8be46b98ad2c78d9c1d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4907540122242896, guid: 477e1f24794e8be46b98ad2c78d9c1d2, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -830,6 +914,10 @@ PrefabInstance:
     - target: {fileID: 1829632723724214, guid: 9e391e0844c0485419f4f63c80f88b95, type: 3}
       propertyPath: m_Name
       value: SM_Wall_600 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1829632723724214, guid: 9e391e0844c0485419f4f63c80f88b95, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4582214242550630, guid: 9e391e0844c0485419f4f63c80f88b95, type: 3}
       propertyPath: m_RootOrder
@@ -918,6 +1006,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Chairs_C1
       objectReference: {fileID: 0}
+    - target: {fileID: 1278559592635060, guid: 3b17cd2a873fc05408d1f3419603fc07, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4993066280161408, guid: 3b17cd2a873fc05408d1f3419603fc07, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -986,6 +1078,10 @@ PrefabInstance:
     - target: {fileID: 1578286040258198, guid: 895e9e533f97dfa489a895b2a3ffd032, type: 3}
       propertyPath: m_Name
       value: SM_Bed_A1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578286040258198, guid: 895e9e533f97dfa489a895b2a3ffd032, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4686673983148004, guid: 895e9e533f97dfa489a895b2a3ffd032, type: 3}
       propertyPath: m_RootOrder
@@ -1063,6 +1159,79 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1343909235}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1282486260 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4628259701518356704, guid: 41dd2a223f630db4cb01f23251f9568a,
+    type: 3}
+  m_PrefabInstance: {fileID: 242773678}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1282486261 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8384654914648814883, guid: 41dd2a223f630db4cb01f23251f9568a,
+    type: 3}
+  m_PrefabInstance: {fileID: 242773678}
+  m_PrefabAsset: {fileID: 0}
+--- !u!108 &1282486263
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282486260}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 0.44788837
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 1
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1001 &1343909235
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1073,6 +1242,10 @@ PrefabInstance:
     - target: {fileID: 1588494583183888, guid: 65788c5a4cc7bc648b0aa8fd69bb32f4, type: 3}
       propertyPath: m_Name
       value: SM_Floor_600 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1588494583183888, guid: 65788c5a4cc7bc648b0aa8fd69bb32f4, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4174606362768794, guid: 65788c5a4cc7bc648b0aa8fd69bb32f4, type: 3}
       propertyPath: m_RootOrder
@@ -1148,6 +1321,10 @@ PrefabInstance:
     - target: {fileID: 1829632723724214, guid: 9e391e0844c0485419f4f63c80f88b95, type: 3}
       propertyPath: m_Name
       value: SM_Wall_600 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1829632723724214, guid: 9e391e0844c0485419f4f63c80f88b95, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4582214242550630, guid: 9e391e0844c0485419f4f63c80f88b95, type: 3}
       propertyPath: m_RootOrder
@@ -1236,6 +1413,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Door_B1_Left
       objectReference: {fileID: 0}
+    - target: {fileID: 1499220573597266, guid: 20bbf5923c8867b4f9e3b2f5b6c6d4dc, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4047713353027522, guid: 20bbf5923c8867b4f9e3b2f5b6c6d4dc, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -1304,6 +1485,10 @@ PrefabInstance:
     - target: {fileID: 1333415664755488, guid: eba6de21bad6835458bcccf1009cc31a, type: 3}
       propertyPath: m_Name
       value: SM_Couch_A3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1333415664755488, guid: eba6de21bad6835458bcccf1009cc31a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4680215729076712, guid: eba6de21bad6835458bcccf1009cc31a, type: 3}
       propertyPath: m_RootOrder
@@ -1392,6 +1577,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Wall_600
       objectReference: {fileID: 0}
+    - target: {fileID: 1829632723724214, guid: 9e391e0844c0485419f4f63c80f88b95, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4582214242550630, guid: 9e391e0844c0485419f4f63c80f88b95, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -1466,6 +1655,10 @@ PrefabInstance:
     - target: {fileID: 1942730431945422, guid: 8bb760e9e87110641880d96cbbd2d24c, type: 3}
       propertyPath: m_Name
       value: SM_Shelf_C2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1942730431945422, guid: 8bb760e9e87110641880d96cbbd2d24c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4324853736293638, guid: 8bb760e9e87110641880d96cbbd2d24c, type: 3}
       propertyPath: m_RootOrder
@@ -1542,6 +1735,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Floor_600 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1588494583183888, guid: 65788c5a4cc7bc648b0aa8fd69bb32f4, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4174606362768794, guid: 65788c5a4cc7bc648b0aa8fd69bb32f4, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1610,6 +1807,10 @@ PrefabInstance:
     - target: {fileID: 1588494583183888, guid: 65788c5a4cc7bc648b0aa8fd69bb32f4, type: 3}
       propertyPath: m_Name
       value: SM_Floor_600
+      objectReference: {fileID: 0}
+    - target: {fileID: 1588494583183888, guid: 65788c5a4cc7bc648b0aa8fd69bb32f4, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4174606362768794, guid: 65788c5a4cc7bc648b0aa8fd69bb32f4, type: 3}
       propertyPath: m_RootOrder
@@ -1680,6 +1881,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Table_A1
       objectReference: {fileID: 0}
+    - target: {fileID: 1038997294639058, guid: 21912efeaf3e33a489d5b82678c6f8bf, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4913882344225430, guid: 21912efeaf3e33a489d5b82678c6f8bf, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -1748,6 +1953,10 @@ PrefabInstance:
     - target: {fileID: 1829632723724214, guid: 9e391e0844c0485419f4f63c80f88b95, type: 3}
       propertyPath: m_Name
       value: SM_Wall_600 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1829632723724214, guid: 9e391e0844c0485419f4f63c80f88b95, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4582214242550630, guid: 9e391e0844c0485419f4f63c80f88b95, type: 3}
       propertyPath: m_RootOrder
@@ -1876,6 +2085,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Floor_600 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1588494583183888, guid: 65788c5a4cc7bc648b0aa8fd69bb32f4, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4174606362768794, guid: 65788c5a4cc7bc648b0aa8fd69bb32f4, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1943,7 +2156,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2048130633}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Escenario
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1991,10 +2204,40 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3147503041359113647, guid: f9bd97a73a9bce34bb8b591b53ccda03,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147503041395902855, guid: f9bd97a73a9bce34bb8b591b53ccda03,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147503042292509046, guid: f9bd97a73a9bce34bb8b591b53ccda03,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147503042385323264, guid: f9bd97a73a9bce34bb8b591b53ccda03,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147503042510887348, guid: f9bd97a73a9bce34bb8b591b53ccda03,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3147503043201147459, guid: f9bd97a73a9bce34bb8b591b53ccda03,
         type: 3}
       propertyPath: m_Name
       value: CanvasInfo
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147503043201147459, guid: f9bd97a73a9bce34bb8b591b53ccda03,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3147503043201147463, guid: f9bd97a73a9bce34bb8b591b53ccda03,
         type: 3}
