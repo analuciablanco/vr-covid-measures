@@ -182,6 +182,7 @@ MonoBehaviour:
   rayDistance: 45.3
   rayLayerDetection:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 512
   reticleTrs: {fileID: 5919615796282323535}
   initialScale: {x: 0.1, y: 0.1, z: 1}
+  buttonImage: {fileID: 0}

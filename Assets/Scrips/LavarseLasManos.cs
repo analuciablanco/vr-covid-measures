@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//ya se armó
 public class LavarseLasManos : MonoBehaviour
 {
     public Text instruction;
