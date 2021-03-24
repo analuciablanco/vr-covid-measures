@@ -14,6 +14,8 @@ public class VRCamera : MonoBehaviour
   RaycastHit hit;
   [SerializeField]
   Transform reticleTrs;
+  [SerializeField]
+  UnityEngine.UI.Image loadingImage;
 
   [SerializeField]
   Vector3 initialScale;
@@ -73,20 +75,22 @@ public class VRCamera : MonoBehaviour
     if(Physics.Raycast(transform.position, transform.forward, out hit, rayDistance, rayLayerDetection))
     {
       target = hit.collider.GetComponent<Target>();
-      reticleTrs.position = new Vector3(hit.point.x, hit.point.y, hit.point.z - 0.01f);
+      reticleTrs.position = new Vector3(hit.point.x, hit.point.y, hit.point.z - 0.1f);
       reticleTrs.localScale = initialScale * hit.distance;
       reticleTrs.gameObject.GetComponent<SpriteRenderer>().color = Color.white;
       reticleTrs.gameObject.GetComponent<Light>().range = 0.6f;
       reticleTrs.rotation = Quaternion.LookRotation(hit.normal);
-      //rotation *= Quaternion.Euler(0, 90, 0); // this adds a 90 degrees Y rotation
-      //reticleTrs.rotation = rotation;
       if(hit.transform.CompareTag("Button")){
         isCounting = true;
         buttonImage.color = new Color(0.4f,0.4f,0.4f);
+        //reticleMask.alphaCutoff = 0;
+        loadingImage.fillAmount = 0;
       }else{
         isCounting = false;
         countdown = 0;
         buttonImage.color = Color.white;
+        //reticleMask.alphaCutoff = 0;
+        loadingImage.fillAmount = 0;
       } 
     }
     else
@@ -103,6 +107,8 @@ public class VRCamera : MonoBehaviour
       countdown = 0;
       buttonImage.color = Color.white;
       reticleTrs.gameObject.GetComponent<SpriteRenderer>().color = new Color(0.7f, 0.7f, 0.7f);
+      //reticleMask.alphaCutoff = 0;
+      loadingImage.fillAmount = 0;
     }
 
     if(countdown >= 3) {
@@ -111,8 +117,11 @@ public class VRCamera : MonoBehaviour
     }
     if(isCounting){
       countdown += Time.deltaTime;
-      float color = countdown > 0.4f ? countdown : 0.4f;
+      float color = countdown > 0.4f ? countdown/3f : 0.4f;
       buttonImage.color = new Color(color, color, color);
+      //reticleMask.alphaCutoff = countdown/3f;
+      loadingImage.fillAmount = countdown/3f;
+
     } 
   }
 
