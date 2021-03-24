@@ -7571,7 +7571,7 @@ PrefabInstance:
     - target: {fileID: 3147503042292509048, guid: f9bd97a73a9bce34bb8b591b53ccda03,
         type: 3}
       propertyPath: m_text
-      value: "Evitar hacer compras de p\xE1nico y comprar en cantidades excesivas
+      value: "Evitar hacer compras de p\xE1nico y comprar en cantidades excesivas,
         hay personas que necesitan lo mismo que tu.\n"
       objectReference: {fileID: 0}
     - target: {fileID: 3147503042510887348, guid: f9bd97a73a9bce34bb8b591b53ccda03,

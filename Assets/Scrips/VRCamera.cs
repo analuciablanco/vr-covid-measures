@@ -113,6 +113,7 @@ public class VRCamera : MonoBehaviour
 
     if(countdown >= 3) {
       int sceneIndex = SceneManager.GetActiveScene().buildIndex;
+      if(sceneIndex >= 14) SceneManager.LoadScene(0);
       SceneManager.LoadScene(sceneIndex + 1);
     }
     if(isCounting){
