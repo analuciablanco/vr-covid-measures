@@ -10,7 +10,8 @@ ______________________________________
 ______________________________________
 
 **INTRODUCCIÓN DEL PROYECTO**
-- La realidad virtual (VR) es una de las herramientas que han crecido de manera increíble los últimos años, ya que su uso no se limita a la rama del entretenimiento, pero si es en este dónde ha alcanzado gran popularidad por su gran variedad de juegos con esta herramienta. 
+
+La realidad virtual (VR) es una de las herramientas que han crecido de manera increíble los últimos años, ya que su uso no se limita a la rama del entretenimiento, pero si es en este dónde ha alcanzado gran popularidad por su gran variedad de juegos con esta herramienta. 
 
 Con el fin de demostrar de que son capaces, a los alumnos de décimo semestre de la carrera Ingeniería en producción multimedia, se les ha asignado la creación de una secuencia de animaciones utilizando realidad aumentada, tomando en cuenta el uso de VR, este proyecto
 debe ser enfocado a las recomendaciones que nos ha hecho secretaria de salud para evitar la propagación del COVID-19.  
@@ -37,7 +38,8 @@ ______________________________________
 ______________________________________
 
 **VR COVID MEASURE**
-- Es una secuencia de 16 distintas animaciones, cada una correspondiente a un consejo dado por la secretaría nacional de salud, así como también dados por la OMS (Organización Mundial de la Salud) para evitar el contagio y la propagación del COVID-19 que, desde hace algunos meses, nos tiene resguardados en nuestros hogares.
+
+Es una secuencia de 16 distintas animaciones, cada una correspondiente a un consejo dado por la secretaría nacional de salud, así como también dados por la OMS (Organización Mundial de la Salud) para evitar el contagio y la propagación del COVID-19 que, desde hace algunos meses, nos tiene resguardados en nuestros hogares.
 
 Todo esto implementando la realidad virtual, dentro del proyecto, el usuario es capaz de interactuar con los diferentes consejos, así como también podrá observar su alrededor con una vista de 360 grados.
 
@@ -62,6 +64,7 @@ ______________________________________
 
 ######  DESARROLLO 
 Requerimientos.
+
 Para el desarrollo y culminación de este proyecto debemos cumplir con lo siguiente: 
 - Dispositivo móvil (celular) con sistema operativo Android 7.0 o mayor.
 - Motor gráfico Unity 3D en su versión 2019.4.20
