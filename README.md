@@ -9,7 +9,7 @@ ______________________________________
 
 ______________________________________
 
-** INTRODUCCIÓN DEL PROYECTO**
+**INTRODUCCIÓN DEL PROYECTO**
 La realidad virtual (VR) es una de las herramientas que han crecido de manera increíble los últimos años, ya que su uso no se limita a la rama del entretenimiento, pero si es en este dónde ha alcanzado gran popularidad por su gran variedad de juegos con esta herramienta. 
 
 Con el fin de demostrar de que son capaces, a los alumnos de décimo semestre de la carrera Ingeniería en producción multimedia, se les ha asignado la creación de una secuencia de animaciones utilizando realidad aumentada, tomando en cuenta el uso de VR, este proyecto
@@ -25,8 +25,8 @@ ______________________________________
 - Crear una secuencia de animaciones con uso de realidad virtual.
 
 ______________________________________
-**
-OBJETIVO ESPECÍFICO**
+
+**OBJETIVO ESPECÍFICO**
 - Crear una secuencia de animaciones que haga concientización para las personas, en las cuales se muestren algunas de las recomendaciones dadas por secretaría de salud para evitar propagar el virus COVID-19.
 
 ______________________________________
@@ -36,7 +36,7 @@ Esta secuencia de animaciones fue creada para dispositivos móviles (celulares) 
 
 ______________________________________
 
-** VR COVID MEASURE**
+**VR COVID MEASURE**
 Es una secuencia de 16 distintas animaciones, cada una correspondiente a un consejo dado por la secretaría nacional de salud, así como también dados por la OMS (Organización Mundial de la Salud) para evitar el contagio y la propagación del COVID-19 que, desde hace algunos meses, nos tiene resguardados en nuestros hogares.
 
 Todo esto implementando la realidad virtual, dentro del proyecto, el usuario es capaz de interactuar con los diferentes consejos, así como también podrá observar su alrededor con una vista de 360 grados.
@@ -91,17 +91,17 @@ https://youtu.be/GbzQaobiKh0
 
 ______________________________________
 
-** JUSTIFICACIÓN**
+**JUSTIFICACIÓN**
 VR COVID MEASURE se justifica no como un videojuego sino como una herramienta de concientización a la población para acatar las medidas necesarias y no seguir propagando el virus que durante meses nos tiene en una eterna cuarentena, a través de un proceso grafico 3D buscamos que el mensaje sea captado para salir lo antes posible y vuelva todo a la normalidad.
 
 ______________________________________
 
-** CONCLUSIÓN**
+**CONCLUSIÓN**
 Luego de tener poco más de una semana trabajando en el proyecto, pudimos reforzar los conocimientos previos, así como también adquirimos nuevos al investigar por nuestra cuenta cosas que no conocíamos pero que eran necesarias para complementar lo que teníamos. 
 
 ______________________________________
 
-**  CREADORES.**
+**EQUIPO.**
 
 -	Arce Contreras Luz Areli
 -	Barraza Rodríguez María Fernanda
@@ -119,8 +119,8 @@ ______________________________________
 -	Valenzuela Ibarra Francisco
 
 ______________________________________
-**
- REFERENCIAS**
+
+**REFERENCIAS**
 Asset de ciudad.
 https://assetstore.unity.com/packages/3d/environments/urban/city-package-107224 
 
