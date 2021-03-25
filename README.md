@@ -11,12 +11,11 @@ ______________________________________
 
 **INTRODUCCIÓN DEL PROYECTO**
 
-La realidad virtual (VR) es una de las herramientas que han crecido de manera increíble los últimos años, ya que su uso no se limita a la rama del entretenimiento, pero si es en este dónde ha alcanzado gran popularidad por su gran variedad de juegos con esta herramienta. 
+La realidad virtual (VR) es una técnica informática cuya popularidad ha crecido aceleradamente en los últimos años. Es un tipo de simulación computacional que permite recrear ambientes para que un sujeto pueda interactuar en ellos, y vivenciar esta experiencia como si ocurriera en un entorno verdadero. Se caracteriza por la ilusión de participación en un entorno sintético que la observación externa de dicho entorno. Se basa en pantallas tridimensionales, estereoscópicas, con seguimiento de la cabeza, seguimiento de manos, cuerpo y sonido binaural. La realidad virtual es una experiencia inmersiva y multisensorial. Debido a las características de esta técnica, hoy en día su uso presenta una gran variedad de aplicaciones, desde la rama del entretenimiento hasta la creación de herramientas educativas e interactivas.
 
-Con el fin de demostrar de que son capaces, a los alumnos de décimo semestre de la carrera Ingeniería en producción multimedia, se les ha asignado la creación de una secuencia de animaciones utilizando realidad aumentada, tomando en cuenta el uso de VR, este proyecto
-debe ser enfocado a las recomendaciones que nos ha hecho secretaria de salud para evitar la propagación del COVID-19.  
+Con el fin de demostrar de lo que son capaces, los alumnos de décimo semestre de la Licenciatura Ingeniería en producción multimedia presentan a continuación una aplicación interactiva desarrollada mediante realidad virtual en Unity Engine. El objetivo de esta secuencia de animaciones es aportar conocimiento al usuario respecto a la situación actual del COVID-19, esto con el fin de difundir las recomendaciones de la Secretaría de Salud para evitar la propagación del virus..  
 
-Se optó porque este juego se llevase a cabo con VR ya que esta herramienta corresponde en su totalidad a la materia “realidad virtual II”
+Se optó por que el proyecto se llevase a cabo mediante realidad virtual ya que esta las técnicas utilizadas para desarrollar esta herramienta corresponden a los conocimientos vistos en clase para de la materia “realidad virtual II”
 
 ______________________________________
 
@@ -33,7 +32,7 @@ ______________________________________
 ______________________________________
 
 **DISPOSITIVOS**
-- Esta secuencia de animaciones fue creada para dispositivos móviles (celulares) con sistema operativo Android.
+- Esta secuencia de animaciones fue ideada para utilizarse en dispositivos móviles (celulares) con sistema operativo Android debido a que la mayor.
 
 ______________________________________
 
